@@ -355,6 +355,8 @@ h6 {
     border-radius: 6px;
     background-color: var(--nav-dropdown-background-color);
     overflow-y: auto;
+    overflow-x: hidden;
+    /* Изменено на hidden для правильного выравнивания */
     transition: 0.3s;
     z-index: 9998;
     box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 90%);
@@ -369,7 +371,9 @@ h6 {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* Выровнять элементы по центру по вертикали */
+    justify-content: flex-start;
+    /* Выравнивание по левому краю */
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -378,7 +382,8 @@ h6 {
   .navmenu a:focus i {
     font-size: 12px;
     line-height: 0;
-    margin-left: 5px;
+    margin-right: 10px;
+    /* Добавить отступ справа для иконки */
     width: 30px;
     height: 30px;
     display: flex;

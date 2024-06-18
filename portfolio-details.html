@@ -43,6 +43,13 @@
           <li><a href="./index.html#services"><i class="bi bi-stickies " style="font-size: 14px;font-style: normal;"> Услуги</a></i></li>
           <li><a href="./index.html#portfolio"><i class="bi bi-cart-check " style="font-size: 14px;font-style: normal;"> Продукт</a></i></li>
           <li><a href="./index.html#contact"><i class="bi bi-telephone-outbound " style="font-size: 14px;font-style: normal;"> Контакты</a></i></li>
+          <li class="dropdown"><a href="#"><i class="bi bi-translate toggle-dropdown" style="font-size: 14px;font-style: normal;"></i>Язык</a></i>
+            <ul>
+              <li><a href="#">Казахский</a></li>
+              <li><a href="#">Русский</a></li>
+              <li><a href="#">Английский</a></li>
+            </ul>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -122,12 +129,13 @@
                 <li><strong>Толщина листа: </strong>от 0,4 до 0,6 мм</li>
                 <li><strong>Высота профиля: </strong>от 20 до 30 мм</li>
                 <li><strong>Материал: </strong>стальная, алюминиевая или медная основа, полимер</li>
+                <li class="d-grid gap-2 d-md-flex justify-content-md-end"><button onclick="openWA_metalcherepica()" type="button" class="btn btn-success">Купить</button></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Кровельный материал</h2>
               <p>
-                представляющий собой листы, изготовленные из тонколистовой стали, алюминия или меди, покрытые полимерным защитным слоем, профилированные методом холодного давления. Листы металлочерепицы по внешнему виду напоминают кладку керамической черепицы. 
+                Представляющий собой листы, изготовленные из тонколистовой стали, алюминия или меди, покрытые полимерным защитным слоем, профилированные методом холодного давления. Листы металлочерепицы по внешнему виду напоминают кладку керамической черепицы. 
               </p>
               <p>
                 Сегодня металлочерепица является популярным кровельным материалом: она используется в самых различных климатических условиях.
@@ -197,12 +205,13 @@
                 <li><strong>Толщина листа: </strong>от 0,4 до 0,7 мм</li>
                 <li><strong>Волны: </strong>трапециевидной формы для большей жесткости листа</li>
                 <li><strong>Покрытие: </strong>полимерное</li>
+                <li class="d-grid gap-2 d-md-flex justify-content-md-end"><button onclick="openWA_profnastil()" type="button" class="btn btn-success">Купить</button></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Облицовочный стеновой или кровельный строительный материал</h2>
               <p>
-                предназначенный для применения в строительстве при возведении наружных ограждений, стен и крыш; в последнее время - для монолитных железобетонных перекрытий «по профнастилу».
+                Предназначенный для применения в строительстве при возведении наружных ограждений, стен и крыш; в последнее время - для монолитных железобетонных перекрытий «по профнастилу».
               </p>
               <p>
                 Профлист представляет собой металлический лист, изготавливаемый из листовой оцинкованной стали методом холодного проката на профилегибочных станах.
@@ -272,6 +281,7 @@
                 <li><strong>Толщина листа: </strong>от 0,4 до 0,6 мм</li>
                 <li><strong>Ширина листа: </strong>от 0.264 м</li>
                 <li><strong>Материал: </strong>сталь оцинкованная</li>
+                <li class="d-grid gap-2 d-md-flex justify-content-md-end"><button onclick="openWA_metalsiding()" type="button" class="btn btn-success">Купить</button></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
@@ -348,12 +358,13 @@
                 <li><strong>Толщина: </strong>от 30 до 250 мм</li>
                 <li><strong>Высота профиля: </strong>от 20 до 30 мм</li>
                 <li><strong>Материал: </strong>металл, ПВХ, ДВП, магнезитовая плита, слой утеплителя</li>
+                <li class="d-grid gap-2 d-md-flex justify-content-md-end"><button onclick="openWA_sandvichpanel()" type="button" class="btn btn-success">Купить</button></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>Строительный материал</h2>
               <p>
-                имеющий трёхслойную структуру, состоящую из двух листов жёсткого материала и слоя утеплителя между ними. Все детали сэндвич-панелей склеиваются между собой с помощью горячего или холодного прессования. В зависимости от назначения выделяются кровельные и стеновые панели. 
+                Имеющий трёхслойную структуру, состоящую из двух листов жёсткого материала и слоя утеплителя между ними. Все детали сэндвич-панелей склеиваются между собой с помощью горячего или холодного прессования. В зависимости от назначения выделяются кровельные и стеновые панели. 
               </p>
               <p>
                 Кровельные сэндвич-панели должны обеспечивать полную герметичность и необходимую прочность кровли, поэтому рекомендуется использовать панели с особым профилированием внешней обшивки в виде гребней.
@@ -418,6 +429,34 @@
 
   <!-- Preloader -->
   <div id="preloader"></div>
+
+  <!-- Check Product -->
+  <script>
+  function openWA_metalcherepica() {
+      var phoneNumber = "your_phone_number";
+      var message = "Здравствуйте! Хотел у Вас заказать товар: Металлочерепица.";
+      var url = "https://wa.me/?text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+  }
+  function openWA_profnastil() {
+      var phoneNumber = "your_phone_number";
+      var message = "Здравствуйте! Хотел у Вас заказать товар: Профнастил.";
+      var url = "https://wa.me/?text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+  }
+  function openWA_metalsiding() {
+      var phoneNumber = "your_phone_number";
+      var message = "Здравствуйте! Хотел у Вас заказать товар: Металлосайдинг.";
+      var url = "https://wa.me/?text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+  }
+  function openWA_sandvichpanel() {
+      var phoneNumber = "your_phone_number";
+      var message = "Здравствуйте! Хотел у Вас заказать товар: Сэндвич-панель.";
+      var url = "https://wa.me/?text=" + encodeURIComponent(message);
+      window.open(url, '_blank');
+  }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
